@@ -1,0 +1,51 @@
+//-------------------------------------//
+
+// GRID
+
+$grid-gutter: 30px;
+
+
+//-------------------------------------//
+
+// DIMENSIONS
+
+// navmenu height
+$height-navmenu: 50px;
+$border-width-navmenu: 1px;
+
+
+//-------------------------------------//
+
+// FONTS
+
+// fonts: base styles
+$font-primary: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-size-base: 14px;
+
+// fonts: weights
+$font-light: 300;
+$font-normal: 400;
+$font-medium: 500;
+$font-bold: 700;
+
+
+//-------------------------------------//
+
+// COLORS
+
+// colors: base font
+$color-font-base: #333;
+
+// colors: primary
+$color-brand-1: #206E86;  // blue
+$color-brand-2: #DC824C;  // orange
+$blue-gray: #87a1b7;
+
+// colors: banner background
+$color-banner-bg: #e8e8e8;
+
+// colors: links
+$color-link: $color-brand-1;
+$color-link-hover: darken($color-link, 15%);
+$color-menu-link: #dedede;
+$color-menu-link-hover: lighten($color-menu-link, 15%);

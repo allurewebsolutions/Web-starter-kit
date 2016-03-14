@@ -1,0 +1,64 @@
+// news meta info
+.meta {
+    color: lighten($color-font-base, 30%);
+    margin-bottom: 0;
+}
+
+
+// custom tab styles
+.tabbed-nav {
+    .tab {
+        cursor: pointer;
+        margin-bottom: 10px;
+
+        .box-title {
+            font-weight: $font-normal;
+        }
+
+        .meta {
+            font-size: 12px;
+        }
+    }
+
+    .box-body {
+        padding: 2px 10px;
+    }
+}
+
+.tab-content {
+    .box-body {
+        .news-poster {
+            width: 100%;
+            height: auto;
+            max-height: 300px;
+            overflow: hidden;
+            margin-bottom: 10px;
+            text-align: center;
+            background: #222D32;
+
+            img {
+                max-width: 100%;
+            }
+        }
+
+        p {
+            font-size: 16px;
+        }
+    }
+
+    &.is-animating {
+        position: absolute;
+        top: 0;
+        left: 15px;
+        right: 15px;
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .tabbed-nav {
+        .tab {
+            margin-bottom: 20px;
+        }
+    }
+}

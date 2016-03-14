@@ -1,0 +1,10 @@
+// default tab styles
+.tab-content {
+    // hide tab content onload
+    display: none;
+
+    &.current {
+        // display only first tab content
+        display: inherit;
+    }
+}

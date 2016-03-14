@@ -1,0 +1,16 @@
+.btn {
+	border-radius: 0;
+}
+
+.btn-lg {
+	font-weight: $font-bold;
+}
+
+.btn-primary {
+	color: #fff;
+	background: $color-brand-1;
+
+	&:hover, &:focus {
+		background: darken($color-brand-1, 5%);
+	}
+}

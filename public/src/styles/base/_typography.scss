@@ -1,0 +1,22 @@
+html {
+	font-size: 87.5%;  // 14px
+}
+
+body {
+	font-family: $font-primary;
+	font-weight: $font-normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: $font-light;
+}
+
+a {
+	color: $color-link;
+
+	&:hover, &:focus {
+		color: $color-link-hover;
+	}
+}

@@ -1,0 +1,11 @@
+/vendor
+/node_modules
+Homestead.yaml
+Homestead.json
+.env
+.php_cs.cache
+/public/coverage
+/public/build
+/public/bootstrap
+/*.psd
+.idea/
